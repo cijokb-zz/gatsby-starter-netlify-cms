@@ -1,24 +1,17 @@
 ---
 templateKey: index-page
 title: St Vincent De Paul Society Kattoor
-image: /img/vincedepaul.png
+image: /img/st-vincent-de-paul-5.jpg
 heading: St Vincent De Paul Society Kattoor
-subheading: “One who does not love their brother and sister, whom they have
-  seen, cannot love God, whom they have not seen.” (1 John 4,20)
+subheading: "“Go to the poor: you will find God.”"
 mainpitch:
   title: History
   description: >
-    The Sacred heart conference of St. Vincent De Paul  in St. Mary’s Church,
-    Kattoor,  located in Trichur district  a part of Irjinalakuda Diocese is
-    being started under the spiritual leadership of Rev.Fr. Varghese Pulickan on
-    26th September 1948. The conference finds a sense of fulfilment for it has
-    succeeded to give recourse to the downtrodden, relief to the sick and those
-    who suffer from poverty and thereby spreading the light of happiness through
-    its dedication and commitment. In those days the difference between the have
-    and the have-nots was so wide that the conference did everything possible to
-    fill the gap between the two especially by supporting the needy in all the
-    ways possible. Through this the conference communicated a noble message to
-    the coming generations.
+    “One who does not love their brother and sister, whom they have seen, cannot
+    love God, whom they have not seen.” (1 John 4,20)
+
+
+    The Sacred heart conference of St. Vincent De Paul  in St. Mary’s Church, Kattoor,  located in Trichur district  a part of Irjinalakuda Diocese is being started under the spiritual leadership of Rev.Fr. Varghese Pulickan on 26th September 1948. The conference finds a sense of fulfilment for it has succeeded to give recourse to the downtrodden, relief to the sick and those who suffer from poverty and thereby spreading the light of happiness through its dedication and commitment. In those days the difference between the have and the have-nots was so wide that the conference did everything possible to fill the gap between the two especially by supporting the needy in all the ways possible. Through this the conference communicated a noble message to the coming generations.
 description: Kaldi is the ultimate spot for coffee lovers who want to learn
   about their java’s origin and support the farmers that grew it. We take coffee
   production, roasting and brewing seriously and we’re glad to pass that
