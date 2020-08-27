@@ -101,7 +101,8 @@ body {
   and (max-width: 414px) {
     .navbar-brand {
       white-space: normal;
-      max-width: 15rem;
+      max-width: 14rem;
+      margin-right: 0.2rem;
     }
   }
 

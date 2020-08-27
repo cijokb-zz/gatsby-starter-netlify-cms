@@ -1,6 +1,7 @@
 import React from "react";
 import { Link } from "gatsby";
 
+
 // import logo from '../img/logo.svg'
 // import facebook from '../img/social/facebook.svg'
 // import instagram from '../img/social/instagram.svg'
@@ -121,8 +122,8 @@ const Footer = () => (
       <a href="#">Back to top</a>
     </p>
     <p>
-      &copy; Copyright © 2020 SVDPKattoor
-      <span>&nbsp;&nbsp;&nbsp;&nbsp;Developed by Cijo KB</span>
+      &copy; Copyright © 2020 SVDPS Kattoor <br/>
+      <span>| Developed by Cijo KB</span>
     </p>
   </footer>
 );

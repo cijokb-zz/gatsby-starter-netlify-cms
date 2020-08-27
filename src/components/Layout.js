@@ -4,6 +4,7 @@ import Footer from "../components/Footer";
 import Navbar from "../components/Navbar";
 import "./all.sass";
 import useSiteMetadata from "./SiteMetadata";
+import logo from "../img/logo.svg";
 import { withPrefix } from "gatsby";
 
 const TemplateWrapper = ({ children }) => {
@@ -53,6 +54,9 @@ const TemplateWrapper = ({ children }) => {
         <Navbar />
       </header>
       {children}
+      <div className="row mx-auto justify-content-center align-items-center flex-column ">
+          <img src={logo} alt="logo" width="150px"/>
+      </div>
       <Footer />
     </div>
   );

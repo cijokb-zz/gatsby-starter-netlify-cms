@@ -1,6 +1,6 @@
 import React from "react";
+import { Navbar, Nav, NavDropdown } from "react-bootstrap";
 import { Link } from "gatsby";
-import logo from "../img/logo1.svg";
 /*
 const Navbar = class extends React.Component {
   constructor(props) {
@@ -99,6 +99,7 @@ const Navbar = class extends React.Component {
 }
 */
 
+/*
 const Navbar = () => (
   <nav className="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
     <a className="navbar-brand" href="#">
@@ -121,28 +122,58 @@ const Navbar = () => (
           <Link className="nav-link" to="/">
             Home
           </Link>
-          {/* <a className="nav-link" href="#">
+          <a className="nav-link" href="#">
             Home <span className="sr-only">(current)</span>
-          </a> */}
+          </a> 
         </li>
         <li className="nav-item">
           <Link className="nav-link" to="/about">
             About
           </Link>
-          {/* <a className="nav-link" href="#">
+          <a className="nav-link" href="#">
             Contact
-          </a> */}
+          </a>
         </li>
         <li className="nav-item">
           <Link className="nav-link" to="/contact">
             Contact
           </Link>
-          {/* <a className="nav-link" href="#" tabindex="-1" aria-disabled="true">
+          <a className="nav-link" href="#" tabindex="-1" aria-disabled="true">
             Disabled
-          </a> */}
+          </a>
         </li>
       </ul>
     </div>
   </nav>
 );
-export default Navbar;
+*/
+const NavigationBar = () => (
+  <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark">
+    <Navbar.Brand href="/" style={{alignItems:"center"}}>St' Vincent De Paul Society Kattoor</Navbar.Brand>
+    <Navbar.Toggle aria-controls="responsive-navbar-nav" />
+    <Navbar.Collapse id="responsive-navbar-nav">
+      <Nav className="mr-auto">
+        <Link className="nav-link" to="/">
+          Home
+        </Link>
+        <Link className="nav-link" to="/about">
+          About
+        </Link>
+        <NavDropdown title="Gallery" id="collasible-nav-dropdown">
+          <NavDropdown.Item href="#action/3.1">Feast</NavDropdown.Item>
+          <NavDropdown.Item href="#action/3.2">Activities</NavDropdown.Item>
+        </NavDropdown>
+      </Nav>
+      <Nav>
+        <Link className="nav-link" to="/contact">
+          Contact
+        </Link>
+        {/* <Nav.Link href="#deets">More deets</Nav.Link>
+        <Nav.Link eventKey={2} href="#memes">
+          Dank memes
+        </Nav.Link> */}
+      </Nav>
+    </Navbar.Collapse>
+  </Navbar>
+);
+export default NavigationBar;
