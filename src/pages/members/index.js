@@ -11,7 +11,7 @@ const MembersPage = ({ data }) => {
   return (
     <Layout>
       <section className="section">
-        <Helmet title={`Feast`} />
+        <Helmet title={`Members`} />
         <div className="container content">
           <div className="columns">
             <div
