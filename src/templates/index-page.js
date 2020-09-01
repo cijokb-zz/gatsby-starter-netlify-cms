@@ -89,8 +89,6 @@ const IndexPage = ({ data }) => {
     banners: { nodes: images },
     markdownRemark: { frontmatter },
   } = data;
-
-  console.log({ data });
   return (
     <Layout>
       <IndexPageTemplate
