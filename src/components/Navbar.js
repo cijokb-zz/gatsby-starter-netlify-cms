@@ -149,7 +149,9 @@ const Navbar = () => (
 */
 const NavigationBar = () => (
   <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark">
-    <Navbar.Brand href="/" style={{alignItems:"center"}}>St' Vincent De Paul Society Kattoor</Navbar.Brand>
+    <Navbar.Brand href="/" style={{ alignItems: "center" }}>
+      St' Vincent De Paul Society Kattoor
+    </Navbar.Brand>
     <Navbar.Toggle aria-controls="responsive-navbar-nav" />
     <Navbar.Collapse id="responsive-navbar-nav">
       <Nav className="mr-auto">
@@ -160,8 +162,8 @@ const NavigationBar = () => (
           About
         </Link>
         <NavDropdown title="Gallery" id="collasible-nav-dropdown">
-          <NavDropdown.Item href="#action/3.1">Feast</NavDropdown.Item>
-          <NavDropdown.Item href="#action/3.2">Activities</NavDropdown.Item>
+          <NavDropdown.Item href="/members">Members</NavDropdown.Item>
+          {/* <NavDropdown.Item href="/activities">Activities</NavDropdown.Item> */}
         </NavDropdown>
       </Nav>
       <Nav>

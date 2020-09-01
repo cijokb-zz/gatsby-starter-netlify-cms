@@ -1,8 +1,8 @@
 module.exports = {
   siteMetadata: {
-    title: 'Gatsby + Netlify CMS Starter',
+    title: 'St Vincent De Paul Society Kattoor',
     description:
-      'This repo contains an example business website that is built with Gatsby, and Netlify CMS.It follows the JAMstack architecture by using Git as a single source of truth, and Netlify for continuous deployment, and CDN distribution.',
+      'St Vincent De Paul Society Kattoor is a charity organisation for helping the poor.',
   },
   plugins: [
     'gatsby-plugin-react-helmet',
@@ -27,6 +27,13 @@ module.exports = {
       options: {
         path: `${__dirname}/src/img/banner`,
         name: 'banners',
+      },
+    },
+    {
+      resolve: 'gatsby-source-filesystem',
+      options: {
+        path: `${__dirname}/src/img/members`,
+        name: 'members',
       },
     },
     {
